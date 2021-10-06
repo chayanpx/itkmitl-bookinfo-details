@@ -1,0 +1,6 @@
+services:
+  ratings:
+    build: .
+    image: ghcr.io/chayanpx/bookinfo-details:dev
+    ports:
+      - "8081:9080"
